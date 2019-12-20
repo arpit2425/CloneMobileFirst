@@ -12,6 +12,10 @@
     <title>Tvs Pharmacy</title>
 </head>
 <body>
+    
+    <div id="splash">
+        <img class="logo" src="https://i.ibb.co/G5jyXN9/logo.png" alt="" />
+    </div>
     <div class="content">
         <header class="header">
             <div class="container">
@@ -81,5 +85,10 @@
             </li>
         </ul>
     </footer>
+    <script>
+        setTimeout(()=>{
+            document.getElementById("splash").classList.toggle('fade');
+        },2000);
+        </script>
 </body>
 </html>
